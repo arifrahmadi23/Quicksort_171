@@ -17,4 +17,10 @@ void input() {
 		else
 			cout << "\n Maksimum panjang array adalah 20" << endl;
 	}
+
+	cout << "\n-------------------" << endl;
+	cout << "\nEnter array element" << endl;
+	cout << "\n-------------------" << endl;
+
+
 }
