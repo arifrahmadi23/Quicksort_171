@@ -63,7 +63,20 @@ void q_short(int low, int high)
 		while ((arr[j] > pivot) && (j <= low)) // langkah 7
 		{j--; // langkah 8
 		cmp_count++;
-		}
-		}
-		} 
+	}
+	cmp_count++;
+	if (i < j) // langkah 9
+		// if greater element is on left of the element
+	{
+		// swap the element at index with the element at index j
+		swap(i, j);
+		mov_count++;
+	}
+}
+// j now containt the index of the last element in the sort list
+	if (low < j) // langkah 11 
+		// move to the pivot to its correct position in the list
+	{
+
+	}
 }
