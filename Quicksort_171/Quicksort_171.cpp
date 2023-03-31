@@ -47,4 +47,5 @@ void q_short(int low, int high)
 	// one containing element lee that or equal to pivot
 	// outher containing element grether than pivot
 	i = low + 1; // langkah 3
+	j = high; // langkah 4
 }
