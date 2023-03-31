@@ -48,4 +48,7 @@ void q_short(int low, int high)
 	// outher containing element grether than pivot
 	i = low + 1; // langkah 3
 	j = high; // langkah 4
+	pivot = arr[low]; // langkah 2
+
+		
 }
