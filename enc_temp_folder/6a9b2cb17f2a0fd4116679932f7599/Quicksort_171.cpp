@@ -25,8 +25,8 @@ void input() {
 
 	for (int i = 0; i < n; i++)
 	{
-		cout << "<" << (i + 1) << "> ";
-		cin >> arr[i];	
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
 	}
 }
 //swap the element at index x with the element at index x y
@@ -60,7 +60,7 @@ void q_short(int low, int high)
 		}
 		cmp_count++;
 		// search for an element greater than pivot
-		while ((arr[j] > pivot) && (j >= low)) // langkah 7
+		while ((arr[j] > pivot) && (j <= low)) // langkah 7
 		{j--; // langkah 8
 		cmp_count++;
 	}
