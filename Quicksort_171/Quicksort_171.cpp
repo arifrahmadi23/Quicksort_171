@@ -40,7 +40,7 @@ void swap(int x, int y)
 void q_short(int low, int high)
 {
 	int pivot, i, j;
-	if l(low > high) // langkah 1
+	if (low > high) // langkah 1
 		return;
 
 	// partition the list into two part
