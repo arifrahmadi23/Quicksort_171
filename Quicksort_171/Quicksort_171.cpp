@@ -42,4 +42,9 @@ void q_short(int low, int high)
 	int pivot, i, j;
 	if l(low > high) // langkah 1
 		return;
+
+	// partition the list into two part
+	// one containing element lee that or equal to pivot
+	// outher containing element grether than pivot
+	i = low + 1; // langkah 3
 }
